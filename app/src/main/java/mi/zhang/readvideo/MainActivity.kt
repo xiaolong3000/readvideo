@@ -15,15 +15,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-       val tabs=findViewById<TabLayout>(R.id.remoteurls)
-        val tab1=tabs.newTab()
-        tab1.setText("yunzhaun")
 
 
 
-        tabs.addTab(tab1)
-
-      tabs.addTab(tab1)
 
     }
 
